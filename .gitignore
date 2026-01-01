@@ -1,4 +1,5 @@
 docs/*.html
 !docs/index.html
+docs/*.epub
 
 .DS_Store
