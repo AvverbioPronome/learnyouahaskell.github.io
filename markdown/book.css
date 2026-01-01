@@ -1,4 +1,7 @@
 /* 1. FONT STACK */
+body{
+    font-family: sans-serif;
+}
 code, pre {
     font-family: "Consolas", "Courier New", monospace !important;
     font-variant-ligatures: none !important;
@@ -38,7 +41,7 @@ pre.sourceCode {
 p img { max-width: 100%; height: auto; vertical-align: middle; }
 p img:not(.left):not(.right):not(.center) { max-height: 1.3em; width: auto; }
 
-/* Floating Images (Relying on your added blank lines) */
+/* Floating Images */
 img.left { float: left; margin: 10px 20px 10px 0; max-width: 40%; }
 img.right { float: right; margin: 10px 0 10px 20px; max-width: 40%; }
 img.center { display: block; margin: 15px auto; max-width: 90%; }
