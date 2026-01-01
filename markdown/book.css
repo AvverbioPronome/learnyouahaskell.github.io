@@ -1,0 +1,45 @@
+/* 1. FONT STACK */
+code, pre {
+    font-family: "Consolas", "Courier New", monospace !important;
+    font-variant-ligatures: none !important;
+}
+
+/* 2. BLOCK CODE: Light Theme (Matches 'tango' colors) */
+pre.sourceCode {
+    background-color: #f8f8f8 !important;
+    color: #333 !important;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    /* margin: 15px 0 25px 0; */
+    border-radius: 4px;
+    font-size: 0.9em;
+    line-height: 1.4;
+    overflow-x: auto;
+}
+
+/* 3. INLINE CODE: 'Pill' Style */
+:not(pre) > code {
+    background-color: #f0f0f0 !important;
+    /* color: #d03 !important; */
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 0.95em;
+    /* font-weight: bold; */
+}
+
+/* 4. CUSTOM PROMPT STYLING (Targeted by Lua) */
+.ghci-prompt {
+    color: #999;       /* Dimmed grey */
+    font-weight: bold;
+    user-select: none; /* Nice touch: prevents user from selecting the prompt when copying code */
+}
+
+/* 5. IMAGE HANDLING */
+p img { max-width: 100%; height: auto; vertical-align: middle; }
+p img:not(.left):not(.right):not(.center) { max-height: 1.3em; width: auto; }
+
+/* Floating Images (Relying on your added blank lines) */
+img.left { float: left; margin: 10px 20px 10px 0; max-width: 40%; }
+img.right { float: right; margin: 10px 0 10px 20px; max-width: 40%; }
+img.center { display: block; margin: 15px auto; max-width: 90%; }
+p { clear: both; }
