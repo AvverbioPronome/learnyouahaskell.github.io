@@ -25,8 +25,9 @@ pandoc "${input_files[@]}" \
     --toc \
     --toc-depth=2 \
     --resource-path=".:$IN:$ASSETS" \
-    --highlight-style=tango \
+    --syntax-highlighting=tango \
     --css=$STYLE_FIX \
+    --css=tango.css \
     --lua-filter=$LUA_FILTER \
     --metadata title="Learn You a Haskell for Great Good!" \
     --metadata author="Miran Lipovača" \
