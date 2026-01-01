@@ -1428,8 +1428,7 @@ And if you want to make something completely new, odds are good that you're look
 
 ## Monoids {#monoids}
 
-![wow this is pretty much the gayest pirate ship
-ever](assets/images/functors-applicative-functors-and-monoids/pirateship.png){.right width=460 height=417}
+![wow this is pretty much the gayest pirate ship ever](assets/images/functors-applicative-functors-and-monoids/pirateship.png){.right width=460 height=417}
 
 Type classes in Haskell are used to present an interface for types that have some behavior in common.
 We started out with simple type classes like `Eq`, which is for types whose values can be equated, and `Ord`, which is for things that can be put in an order and then moved on to more interesting ones, like `Functor` and `Applicative`.
