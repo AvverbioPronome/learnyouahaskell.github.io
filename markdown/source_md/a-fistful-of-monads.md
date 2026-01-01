@@ -1165,8 +1165,7 @@ Later on, we'll see how to modify this function so that we also pass it the numb
 
 ## Monad laws {#monad-laws}
 
-![the court finds you guilty of peeing all over
-everything](assets/images/a-fistful-of-monads/judgedog.png){.right width=343 height=170}
+![the court finds you guilty of peeing all over everything](assets/images/a-fistful-of-monads/judgedog.png){.right width=343 height=170}
 
 Just like applicative functors, and functors before them, monads come with a few laws that all monad instances must abide by.
 Just because something is made an instance of the `Monad` type class doesn't mean that it's a monad, it just means that it was made an instance of a type class.

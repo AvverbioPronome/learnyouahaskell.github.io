@@ -31,6 +31,7 @@ It forces you to think differently, which brings us to the next section ...
 ## So what's Haskell? {#so-whats-haskell}
 
 ![fx](assets/images/introduction/fx.png){.right width=150 height=146}
+
 Haskell is a **purely functional programming language**.
 In imperative languages you get things done by giving the computer a sequence of tasks and then it executes them.
 While executing them, it can change state.
@@ -48,6 +49,7 @@ At first, this seems kind of limiting but it actually has some very nice consequ
 That's called referential transparency and not only does it allow the compiler to reason about the program's behavior, but it also allows you to easily deduce (and even prove) that a function is correct and then build more complex functions by gluing simple functions together.
 
 ![lazy](assets/images/introduction/lazy.png){.right width=240 height=209}
+
 Haskell is **lazy**.
 That means that unless specifically told otherwise, Haskell won't execute functions and calculate things until it's really forced to show you a result.
 That goes well with referential transparency and it allows you to think of programs as a series of **transformations on data**.
@@ -64,6 +66,7 @@ So it only does one pass through the list and only when you really need it.
 That way when you want something from a lazy language you can just take some initial data and efficiently transform and mend it so it resembles what you want at the end.
 
 ![boat](assets/images/introduction/boat.png){.right width=160 height=153}
+
 Haskell is **statically typed**.
 When you compile your program, the compiler knows which piece of code is a number, which is a string and so on.
 That means that a lot of possible errors are caught at compile time.

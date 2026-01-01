@@ -3,6 +3,7 @@
 ## Ready, set, go! {#ready-set-go}
 
 ![egg](assets/images/starting-out/startingout.png){.right width=214 height=187}
+
 Alright, let's get started!
 If you're the sort of horrible person who doesn't read introductions to things and you skipped it, you might want to read the last section in the introduction anyway because it explains what you need to follow this tutorial and how we're going to load functions.
 The first thing we're going to do is run GHC's interactive mode and call some function to get a very basic feel for Haskell.
@@ -119,6 +120,7 @@ Most functions that aren't used with numbers are *prefix* functions.
 Let's take a look at them.
 
 ![phoen](assets/images/starting-out/ringring.png){.right width=160 height=161}
+
 Functions are usually prefix, so from now on we won't explicitly state that a function is of the prefix form, we'll just assume it.
 In most imperative languages, functions are called by writing the function name and then writing its parameters in parentheses, usually separated by commas.
 In Haskell, functions are called by writing the function name, a space and then the parameters, separated by spaces.
@@ -281,6 +283,7 @@ Because we can't change what names (and functions) mean once we've defined them,
 ## An intro to lists {#an-intro-to-lists}
 
 ![BUY A DOG](assets/images/starting-out/list.png){.left width=150 height=103}
+
 Much like shopping lists in the real world, lists in Haskell are very useful.
 It's the most used data structure and it can be used in a multitude of different ways to model and solve a whole bunch of problems.
 Lists are SO awesome.
@@ -533,6 +536,7 @@ We'll take a look at more list functions [later](modules.html#data-list).
 ## Texas ranges {#texas-ranges}
 
 ![draw](assets/images/starting-out/cowboy.png){.right width=200 height=258}
+
 What if we want a list of all numbers between 1 and 20?
 Sure, we could just type them all out but obviously that's not a solution for gentlemen who demand excellence from their programming languages.
 Instead, we'll use ranges.
@@ -621,6 +625,7 @@ Although it's simpler to just use the `replicate`{.label .function} function if 
 ## I'm a list comprehension {#im-a-list-comprehension}
 
 ![frog](assets/images/starting-out/kermit.png){.left width=180 height=156}
+
 If you've ever taken a course in mathematics, you've probably run into *set comprehensions*.
 They're normally used for building more specific sets out of general sets.
 A basic comprehension for a set that contains the first ten even natural numbers is ![set notation](assets/images/starting-out/setnotation.png).

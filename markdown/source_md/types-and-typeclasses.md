@@ -38,6 +38,7 @@ ghci> :t 4 == 5
 ```
 
 ![bomb](assets/images/types-and-typeclasses/bomb.png){.right width=171 height=144}
+
 Here we see that doing `:t` on an expression prints out the expression followed by `::` and its type.
 `::` is read as "has type of".
 Explicit types are always denoted with the first letter in capital case.
@@ -153,6 +154,7 @@ head :: [a] -> a
 ```
 
 ![box](assets/images/types-and-typeclasses/box.png){.left width=130 height=93}
+
 Hmmm!
 What is this `a`?
 Is it a type?
